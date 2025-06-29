@@ -119,13 +119,13 @@ export default function Index() {
             <div className="flex items-start mb-4">
               <div className="text-3xl mr-3">{currentQuote.catEmoji}</div>
               <div className="flex-1">
-                <h3 className="font-handwritten text-xl font-bold text-warm-brown mb-2">
+                <h3 className="font-corporate text-xl font-bold text-warm-brown mb-2">
                   Daily Inspiration
                 </h3>
-                <blockquote className="text-warm-gray font-rounded leading-relaxed italic">
+                <blockquote className="text-warm-gray font-corporate leading-relaxed italic">
                   "{currentQuote.quote}"
                 </blockquote>
-                <p className="text-sm font-rounded text-warm-gray mt-2">
+                <p className="text-sm font-corporate text-warm-gray mt-2">
                   — {currentQuote.author}
                 </p>
               </div>
@@ -134,7 +134,7 @@ export default function Index() {
               <Button
                 variant="ghost"
                 size="sm"
-                className="text-warm-brown hover:bg-mint-200 font-rounded"
+                className="text-warm-brown hover:bg-mint-200 font-corporate"
               >
                 More quotes <ArrowRight size={16} className="ml-1" />
               </Button>
