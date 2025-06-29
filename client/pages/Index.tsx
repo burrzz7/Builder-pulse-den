@@ -31,7 +31,7 @@ export default function Index() {
         <div className="text-center mb-8">
           <div className="text-6xl mb-4">🐱</div>
           <h1 className="text-4xl font-handwritten font-bold text-warm-brown mb-2">
-            Jasmeow
+            MeowU
           </h1>
           <p className="text-warm-gray font-rounded">
             Your daily dose of motivation and purrs! 💕
@@ -40,14 +40,16 @@ export default function Index() {
 
         {/* Birthday Message */}
         {showBirthday && (
-          <Card className="mb-6 bg-gradient-to-r from-blush-100 to-mint-100 border-blush-200">
+          <Card
+            className={`mb-6 bg-gradient-to-r ${birthdayMessage.color} border-blush-200`}
+          >
             <CardContent className="p-6 text-center">
-              <div className="text-5xl mb-3">🎂</div>
+              <div className="text-5xl mb-3">{birthdayMessage.emoji}</div>
               <h3 className="font-handwritten text-xl font-bold text-warm-brown mb-2">
                 Special Day! 🎉
               </h3>
               <p className="text-warm-gray font-rounded leading-relaxed">
-                {mockBirthdayMessage.message}
+                {birthdayMessage.message}
               </p>
             </CardContent>
           </Card>
