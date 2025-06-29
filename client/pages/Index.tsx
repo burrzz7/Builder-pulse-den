@@ -16,6 +16,7 @@ export default function Index() {
   const [currentCat, setCurrentCat] = useState(getTodaysCat());
   const [showBirthday, setShowBirthday] = useState(false);
   const [birthdayMessage, setBirthdayMessage] = useState(getBirthdayMessage());
+  const [selectedMood, setSelectedMood] = useState<string | null>(null);
 
   useEffect(() => {
     // Set today's content
@@ -23,6 +24,12 @@ export default function Index() {
     setCurrentCat(getTodaysCat());
     setShowBirthday(isBirthday());
     setBirthdayMessage(getBirthdayMessage());
+
+    // Load saved mood from localStorage
+    const savedMood = localStorage.getItem("meowu-selected-mood");
+    if (savedMood) {
+      setSelectedMood(savedMood);
+    }
   }, []);
 
   return (
