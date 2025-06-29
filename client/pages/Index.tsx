@@ -30,10 +30,10 @@ export default function Index() {
         {/* Header */}
         <div className="text-center mb-8">
           <div className="text-6xl mb-4">🐱</div>
-          <h1 className="text-4xl font-handwritten font-bold text-warm-brown mb-2">
+          <h1 className="text-4xl font-corporate font-bold text-warm-brown mb-2">
             MeowU
           </h1>
-          <p className="text-warm-gray font-rounded">
+          <p className="text-warm-gray font-corporate">
             Your daily dose of motivation and purrs! 💕
           </p>
         </div>
