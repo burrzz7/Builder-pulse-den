@@ -8,6 +8,7 @@ import {
   getTodaysCat,
   isBirthday,
   getBirthdayMessage,
+  moodCats,
 } from "@shared/data";
 
 export default function Index() {
