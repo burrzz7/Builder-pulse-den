@@ -80,7 +80,7 @@ export default function Mood() {
 
             <Card className="bg-beige-100 border-beige-200">
               <CardContent className="p-6">
-                <h3 className="font-handwritten text-lg font-bold text-warm-brown mb-4 text-center">
+                <h3 className="font-corporate text-lg font-bold text-warm-brown mb-4 text-center">
                   Self-Care Tips 💖
                 </h3>
                 <div className="space-y-3">
@@ -88,7 +88,7 @@ export default function Mood() {
                     <>
                       <div className="flex items-start">
                         <span className="text-lg mr-3">🌟</span>
-                        <p className="text-sm font-rounded text-warm-gray">
+                        <p className="text-sm font-corporate text-warm-gray">
                           Share your joy! Call a friend or write in a gratitude
                           journal.
                         </p>
