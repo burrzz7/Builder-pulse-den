@@ -83,16 +83,18 @@ export default function Index() {
         </div>
 
         {/* Cat of the Day */}
-        <Card className="mb-6 bg-beige-100 border-beige-200">
+        <Card
+          className={`mb-6 bg-gradient-to-r ${currentCat.color} border-beige-200`}
+        >
           <CardContent className="p-6">
             <div className="flex items-center mb-4">
-              <div className="text-3xl mr-3">{currentCat.catImage}</div>
+              <div className="text-3xl mr-3">{currentCat.emoji}</div>
               <div>
                 <h3 className="font-handwritten text-xl font-bold text-warm-brown">
                   Cat of the Day
                 </h3>
                 <p className="text-sm font-rounded text-warm-gray">
-                  Meet {currentCat.name}
+                  Meet {currentCat.name} - {currentCat.character}
                 </p>
               </div>
             </div>
