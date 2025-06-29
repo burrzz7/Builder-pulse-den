@@ -3,60 +3,25 @@ import { Link } from "react-router-dom";
 import { Button } from "../components/ui/button";
 import { Card, CardContent } from "../components/ui/card";
 import { Timer, ArrowRight, Sparkles } from "lucide-react";
-
-// Mock data for development
-const mockQuotes = [
-  {
-    quote:
-      "You are braver than you believe, stronger than you seem, and smarter than you think.",
-    source: "A.A. Milne",
-    catImage: "🐱",
-  },
-  {
-    quote: "Every accomplishment starts with the decision to try.",
-    source: "Unknown",
-    catImage: "😸",
-  },
-  {
-    quote: "Believe you can and you're halfway there.",
-    source: "Theodore Roosevelt",
-    catImage: "😺",
-  },
-];
-
-const mockCatsOfTheDay = [
-  {
-    name: "Luna",
-    message:
-      "Today is a purr-fect day to tackle your dissertation! You've got this! 📚✨",
-    catImage: "🐾",
-  },
-  {
-    name: "Whiskers",
-    message:
-      "Take breaks and be kind to yourself. Progress, not perfection! 💝",
-    catImage: "😻",
-  },
-];
-
-const mockBirthdayMessage = {
-  message:
-    "Happy Birthday, beautiful soul! 🎂 May this year bring you joy, success, and lots of cuddles! 🎉🐱",
-};
+import {
+  getTodaysQuote,
+  getTodaysCat,
+  isBirthday,
+  getBirthdayMessage,
+} from "@shared/data";
 
 export default function Index() {
-  const [currentQuote, setCurrentQuote] = useState(mockQuotes[0]);
-  const [currentCat, setCurrentCat] = useState(mockCatsOfTheDay[0]);
+  const [currentQuote, setCurrentQuote] = useState(getTodaysQuote());
+  const [currentCat, setCurrentCat] = useState(getTodaysCat());
   const [showBirthday, setShowBirthday] = useState(false);
+  const [birthdayMessage, setBirthdayMessage] = useState(getBirthdayMessage());
 
-  // Simulate daily rotation
   useEffect(() => {
-    const today = new Date().getDay();
-    setCurrentQuote(mockQuotes[today % mockQuotes.length]);
-    setCurrentCat(mockCatsOfTheDay[today % mockCatsOfTheDay.length]);
-
-    // Show birthday message during birthday week (for demo, show randomly)
-    setShowBirthday(Math.random() > 0.7);
+    // Set today's content
+    setCurrentQuote(getTodaysQuote());
+    setCurrentCat(getTodaysCat());
+    setShowBirthday(isBirthday());
+    setBirthdayMessage(getBirthdayMessage());
   }, []);
 
   return (
