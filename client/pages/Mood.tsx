@@ -87,6 +87,7 @@ export default function Mood() {
                   {selectedCat.id === "happy" && (
                     <>
                       <div className="flex items-start">
+                        <span className="text-lg mr-3">🌟</span>
                         <p className="text-sm font-corporate text-warm-gray">
                           Share your joy! Call a friend or write in a gratitude
                           journal.
@@ -136,13 +137,13 @@ export default function Mood() {
                     <>
                       <div className="flex items-start">
                         <span className="text-lg mr-3">🧘</span>
-                        <p className="text-sm font-rounded text-warm-gray">
+                        <p className="text-sm font-corporate text-warm-gray">
                           Take deep breaths and count to ten slowly.
                         </p>
                       </div>
                       <div className="flex items-start">
                         <span className="text-lg mr-3">🏃</span>
-                        <p className="text-sm font-rounded text-warm-gray">
+                        <p className="text-sm font-corporate text-warm-gray">
                           Channel that energy into physical exercise.
                         </p>
                       </div>
@@ -152,13 +153,13 @@ export default function Mood() {
                     <>
                       <div className="flex items-start">
                         <span className="text-lg mr-3">📚</span>
-                        <p className="text-sm font-rounded text-warm-gray">
+                        <p className="text-sm font-corporate text-warm-gray">
                           Read something new or explore a interesting topic!
                         </p>
                       </div>
                       <div className="flex items-start">
                         <span className="text-lg mr-3">🔍</span>
-                        <p className="text-sm font-rounded text-warm-gray">
+                        <p className="text-sm font-corporate text-warm-gray">
                           Try a new hobby or skill you've been curious about.
                         </p>
                       </div>
@@ -168,13 +169,13 @@ export default function Mood() {
                     <>
                       <div className="flex items-start">
                         <span className="text-lg mr-3">🎮</span>
-                        <p className="text-sm font-rounded text-warm-gray">
+                        <p className="text-sm font-corporate text-warm-gray">
                           Play a fun game or do something creative!
                         </p>
                       </div>
                       <div className="flex items-start">
                         <span className="text-lg mr-3">🎨</span>
-                        <p className="text-sm font-rounded text-warm-gray">
+                        <p className="text-sm font-corporate text-warm-gray">
                           Express yourself through art, music, or writing.
                         </p>
                       </div>
@@ -184,13 +185,13 @@ export default function Mood() {
                     <>
                       <div className="flex items-start">
                         <span className="text-lg mr-3">🌸</span>
-                        <p className="text-sm font-rounded text-warm-gray">
+                        <p className="text-sm font-corporate text-warm-gray">
                           Practice mindfulness or try a breathing exercise.
                         </p>
                       </div>
                       <div className="flex items-start">
                         <span className="text-lg mr-3">☕</span>
-                        <p className="text-sm font-rounded text-warm-gray">
+                        <p className="text-sm font-corporate text-warm-gray">
                           Make a warm drink and focus on the present moment.
                         </p>
                       </div>
@@ -200,13 +201,13 @@ export default function Mood() {
                     <>
                       <div className="flex items-start">
                         <span className="text-lg mr-3">💌</span>
-                        <p className="text-sm font-rounded text-warm-gray">
+                        <p className="text-sm font-corporate text-warm-gray">
                           Send a message to someone you care about.
                         </p>
                       </div>
                       <div className="flex items-start">
                         <span className="text-lg mr-3">🌺</span>
-                        <p className="text-sm font-rounded text-warm-gray">
+                        <p className="text-sm font-corporate text-warm-gray">
                           Practice self-love with positive affirmations.
                         </p>
                       </div>
@@ -216,13 +217,13 @@ export default function Mood() {
                     <>
                       <div className="flex items-start">
                         <span className="text-lg mr-3">🎯</span>
-                        <p className="text-sm font-rounded text-warm-gray">
+                        <p className="text-sm font-corporate text-warm-gray">
                           Make a to-do list and tackle one task at a time.
                         </p>
                       </div>
                       <div className="flex items-start">
                         <span className="text-lg mr-3">⏰</span>
-                        <p className="text-sm font-rounded text-warm-gray">
+                        <p className="text-sm font-corporate text-warm-gray">
                           Use the study timer to maintain your focus!
                         </p>
                       </div>
@@ -236,7 +237,7 @@ export default function Mood() {
               <Button
                 onClick={resetSelection}
                 variant="outline"
-                className="border-beige-300 text-warm-brown hover:bg-beige-100 font-rounded"
+                className="border-beige-300 text-warm-brown hover:bg-beige-100 font-corporate"
               >
                 Choose Another Mood
               </Button>
@@ -254,13 +255,13 @@ export default function Mood() {
                 >
                   <CardContent className="p-6 text-center">
                     <div className="text-4xl mb-3">{cat.emoji}</div>
-                    <h3 className="font-handwritten text-lg font-bold text-warm-brown mb-1">
+                    <h3 className="font-corporate text-lg font-bold text-warm-brown mb-1">
                       {cat.name}
                     </h3>
-                    <p className="text-sm font-rounded text-warm-gray font-medium">
+                    <p className="text-sm font-corporate text-warm-gray font-medium">
                       {cat.mood}
                     </p>
-                    <p className="text-xs font-rounded text-warm-gray mt-2">
+                    <p className="text-xs font-corporate text-warm-gray mt-2">
                       {cat.description}
                     </p>
                   </CardContent>
@@ -272,10 +273,10 @@ export default function Mood() {
             <Card className="bg-gradient-to-r from-blush-100 to-mint-100 border-blush-200">
               <CardContent className="p-6 text-center">
                 <div className="text-4xl mb-3">💖</div>
-                <h3 className="font-handwritten text-lg font-bold text-warm-brown mb-2">
+                <h3 className="font-corporate text-lg font-bold text-warm-brown mb-2">
                   All Feelings Are Valid
                 </h3>
-                <p className="text-warm-gray font-rounded text-sm leading-relaxed">
+                <p className="text-warm-gray font-corporate text-sm leading-relaxed">
                   Whatever you're feeling today is completely okay. Every
                   emotion has its place, and you're doing great! 🌟
                 </p>
@@ -286,7 +287,7 @@ export default function Mood() {
 
         {/* Motivational Footer */}
         <div className="text-center py-6">
-          <p className="text-warm-gray font-rounded text-sm">
+          <p className="text-warm-gray font-corporate text-sm">
             "Your feelings matter, and so do you! 💕"
           </p>
           <div className="text-2xl mt-2">🐾✨🐾</div>
