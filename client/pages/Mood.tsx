@@ -11,6 +11,8 @@ export default function Mood() {
   const handleMoodSelect = (moodId: string) => {
     setSelectedMood(moodId);
     setShowMessage(true);
+    // Save mood to localStorage for persistence
+    localStorage.setItem("meowu-selected-mood", moodId);
   };
 
   const resetSelection = () => {
