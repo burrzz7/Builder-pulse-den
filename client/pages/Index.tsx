@@ -63,6 +63,40 @@ export default function Index() {
           </Card>
         )}
 
+        {/* Current Mood Display */}
+        {selectedMood && (
+          <Card className="mb-6 bg-gradient-to-r from-purple-100 to-blue-100 border-purple-200">
+            <CardContent className="p-4">
+              <div className="flex items-center">
+                <div className="text-3xl mr-3">
+                  {moodCats.find((cat) => cat.id === selectedMood)?.emoji}
+                </div>
+                <div className="flex-1">
+                  <h3 className="font-corporate text-lg font-bold text-warm-brown">
+                    Current Mood
+                  </h3>
+                  <p className="text-sm font-corporate text-warm-gray">
+                    You're feeling{" "}
+                    {moodCats
+                      .find((cat) => cat.id === selectedMood)
+                      ?.mood.toLowerCase()}{" "}
+                    today
+                  </p>
+                </div>
+                <Link to="/mood">
+                  <Button
+                    variant="ghost"
+                    size="sm"
+                    className="text-warm-brown hover:bg-purple-200 font-corporate"
+                  >
+                    Change
+                  </Button>
+                </Link>
+              </div>
+            </CardContent>
+          </Card>
+        )}
+
         {/* Quick Actions */}
         <div className="grid grid-cols-2 gap-4 mb-8">
           <Link to="/timer">
