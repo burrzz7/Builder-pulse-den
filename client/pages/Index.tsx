@@ -117,7 +117,7 @@ export default function Index() {
         <Card className="mb-6 bg-gradient-to-br from-mint-100 to-blush-100 border-mint-200">
           <CardContent className="p-6">
             <div className="flex items-start mb-4">
-              <div className="text-3xl mr-3">{currentQuote.catImage}</div>
+              <div className="text-3xl mr-3">{currentQuote.catEmoji}</div>
               <div className="flex-1">
                 <h3 className="font-handwritten text-xl font-bold text-warm-brown mb-2">
                   Daily Inspiration
@@ -126,7 +126,7 @@ export default function Index() {
                   "{currentQuote.quote}"
                 </blockquote>
                 <p className="text-sm font-rounded text-warm-gray mt-2">
-                  — {currentQuote.source}
+                  — {currentQuote.author}
                 </p>
               </div>
             </div>
