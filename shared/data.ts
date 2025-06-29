@@ -161,15 +161,7 @@ export const moodCats = [
     message:
       "Your curiosity will lead you to amazing discoveries! Keep exploring! 🔍",
   },
-  {
-    id: "playful",
-    name: "Bounce",
-    emoji: "😹",
-    mood: "Playful",
-    description: "Feeling energetic and fun",
-    color: "from-pink-200 to-purple-200",
-    message: "Life is meant to be fun! Your playful spirit is contagious! 🎈",
-  },
+
   {
     id: "anxious",
     name: "Worry",
