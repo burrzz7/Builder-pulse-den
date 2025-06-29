@@ -13,6 +13,10 @@ export default {
       },
     },
     extend: {
+      fontFamily: {
+        rounded: ["ui-rounded", "SF Pro Rounded", "system-ui", "sans-serif"],
+        handwritten: ["Kalam", "Comic Neue", "cursive"],
+      },
       colors: {
         border: "hsl(var(--border))",
         input: "hsl(var(--input))",
@@ -47,15 +51,29 @@ export default {
           DEFAULT: "hsl(var(--card))",
           foreground: "hsl(var(--card-foreground))",
         },
-        sidebar: {
-          DEFAULT: "hsl(var(--sidebar-background))",
-          foreground: "hsl(var(--sidebar-foreground))",
-          primary: "hsl(var(--sidebar-primary))",
-          "primary-foreground": "hsl(var(--sidebar-primary-foreground))",
-          accent: "hsl(var(--sidebar-accent))",
-          "accent-foreground": "hsl(var(--sidebar-accent-foreground))",
-          border: "hsl(var(--sidebar-border))",
-          ring: "hsl(var(--sidebar-ring))",
+        // Jasmeow pastel theme colors
+        beige: {
+          50: "hsl(var(--beige-50))",
+          100: "hsl(var(--beige-100))",
+          200: "hsl(var(--beige-200))",
+          500: "hsl(var(--beige-500))",
+          600: "hsl(var(--beige-600))",
+        },
+        blush: {
+          50: "hsl(var(--blush-50))",
+          100: "hsl(var(--blush-100))",
+          200: "hsl(var(--blush-200))",
+          500: "hsl(var(--blush-500))",
+        },
+        mint: {
+          50: "hsl(var(--mint-50))",
+          100: "hsl(var(--mint-100))",
+          200: "hsl(var(--mint-200))",
+          500: "hsl(var(--mint-500))",
+        },
+        warm: {
+          gray: "hsl(var(--warm-gray))",
+          brown: "hsl(var(--warm-brown))",
         },
       },
       borderRadius: {
