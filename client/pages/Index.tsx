@@ -62,7 +62,7 @@ export default function Index() {
               <CardContent className="p-4 text-center">
                 <Timer className="mx-auto mb-2 text-warm-brown" size={24} />
                 <div className="text-2xl mb-1">⏰</div>
-                <h3 className="font-rounded font-semibold text-warm-brown text-sm">
+                <h3 className="font-corporate font-semibold text-warm-brown text-sm">
                   Study Timer
                 </h3>
               </CardContent>
@@ -74,7 +74,7 @@ export default function Index() {
               <CardContent className="p-4 text-center">
                 <Sparkles className="mx-auto mb-2 text-warm-brown" size={24} />
                 <div className="text-2xl mb-1">😸</div>
-                <h3 className="font-rounded font-semibold text-warm-brown text-sm">
+                <h3 className="font-corporate font-semibold text-warm-brown text-sm">
                   How I Feel
                 </h3>
               </CardContent>
