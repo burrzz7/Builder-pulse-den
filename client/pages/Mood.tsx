@@ -12,7 +12,7 @@ export default function Mood() {
     setSelectedMood(moodId);
     setShowMessage(true);
     // Save mood to localStorage for persistence
-    localStorage.setItem('meowu-selected-mood', moodId);
+    localStorage.setItem("meowu-selected-mood", moodId);
   };
 
   const resetSelection = () => {
@@ -96,7 +96,6 @@ export default function Mood() {
                         <span className="text-lg mr-3">🎵</span>
                         <p className="text-sm font-corporate text-warm-gray">
                           Play your favorite upbeat songs and dance!
-                        </p>
                         </p>
                       </div>
                     </>
