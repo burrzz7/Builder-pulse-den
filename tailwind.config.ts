@@ -14,8 +14,8 @@ export default {
     },
     extend: {
       fontFamily: {
-        rounded: ["ui-rounded", "SF Pro Rounded", "system-ui", "sans-serif"],
-        handwritten: ["Kalam", "Comic Neue", "cursive"],
+        sans: ["Inter", "system-ui", "sans-serif"],
+        corporate: ["Inter", "Roboto", "system-ui", "sans-serif"],
       },
       colors: {
         border: "hsl(var(--border))",
