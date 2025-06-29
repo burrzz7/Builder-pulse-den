@@ -61,7 +61,7 @@ export default function BottomNavigation() {
                   <Icon size={20} />
                 )}
               </div>
-              <span className="text-xs font-rounded mt-1 font-medium">
+              <span className="text-xs font-corporate mt-1 font-medium">
                 {item.label}
               </span>
             </Link>
