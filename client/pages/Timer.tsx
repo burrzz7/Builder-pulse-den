@@ -183,11 +183,8 @@ export default function Timer() {
         </Card>
 
         {/* Motivational Message */}
-        <div className="text-center mt-6 py-4">
-          <p className="text-warm-gray font-rounded text-sm">
-            {getRandomMessage()}
-          </p>
-          <div className="text-2xl mt-2">🎯📖✨</div>
+        <div className="text-center mt-6 py-4 text-warm-gray text-sm font-rounded">
+          {getRandomMessage()}
         </div>
       </div>
     </div>
