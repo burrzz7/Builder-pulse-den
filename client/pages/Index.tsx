@@ -90,22 +90,22 @@ export default function Index() {
             <div className="flex items-center mb-4">
               <div className="text-3xl mr-3">{currentCat.emoji}</div>
               <div>
-                <h3 className="font-handwritten text-xl font-bold text-warm-brown">
+                <h3 className="font-corporate text-xl font-bold text-warm-brown">
                   Cat of the Day
                 </h3>
-                <p className="text-sm font-rounded text-warm-gray">
+                <p className="text-sm font-corporate text-warm-gray">
                   Meet {currentCat.name} - {currentCat.character}
                 </p>
               </div>
             </div>
-            <p className="text-warm-gray font-rounded leading-relaxed mb-4">
+            <p className="text-warm-gray font-corporate leading-relaxed mb-4">
               {currentCat.message}
             </p>
             <Link to="/cat-of-the-day">
               <Button
                 variant="ghost"
                 size="sm"
-                className="text-warm-brown hover:bg-beige-200 font-rounded"
+                className="text-warm-brown hover:bg-beige-200 font-corporate"
               >
                 See more <ArrowRight size={16} className="ml-1" />
               </Button>
