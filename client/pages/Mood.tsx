@@ -53,25 +53,25 @@ export default function Mood() {
                 </Button>
 
                 <div className="text-8xl mb-4">{selectedCat.emoji}</div>
-                <h2 className="text-2xl font-handwritten font-bold text-warm-brown mb-2">
+                <h2 className="text-2xl font-corporate font-bold text-warm-brown mb-2">
                   {selectedCat.name}
                 </h2>
-                <p className="text-lg font-rounded text-warm-gray mb-4">
+                <p className="text-lg font-corporate text-warm-gray mb-4">
                   Feeling {selectedCat.mood.toLowerCase()}
                 </p>
-                <div className="text-sm font-rounded text-warm-gray bg-white/50 rounded-full px-4 py-2 inline-block mb-6">
+                <div className="text-sm font-corporate text-warm-gray bg-white/50 rounded-full px-4 py-2 inline-block mb-6">
                   {selectedCat.description}
                 </div>
 
                 <div className="bg-white/70 rounded-xl p-6">
                   <div className="flex items-center justify-center mb-3">
                     <Sparkles size={20} className="text-warm-brown mr-2" />
-                    <h3 className="font-handwritten text-lg font-bold text-warm-brown">
+                    <h3 className="font-corporate text-lg font-bold text-warm-brown">
                       Message for You
                     </h3>
                     <Sparkles size={20} className="text-warm-brown ml-2" />
                   </div>
-                  <p className="text-warm-gray font-rounded leading-relaxed italic text-center">
+                  <p className="text-warm-gray font-corporate leading-relaxed italic text-center">
                     {selectedCat.message}
                   </p>
                 </div>
