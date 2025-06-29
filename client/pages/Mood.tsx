@@ -290,7 +290,6 @@ export default function Mood() {
           <p className="text-warm-gray font-corporate text-sm">
             "Your feelings matter, and so do you! 💕"
           </p>
-          <div className="text-2xl mt-2">🐾✨🐾</div>
         </div>
       </div>
     </div>
