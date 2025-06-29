@@ -288,7 +288,7 @@ export default function Mood() {
         {/* Motivational Footer */}
         <div className="text-center py-6">
           <p className="text-warm-gray font-corporate text-sm">
-            "Your feelings matter, and so do you! 💕"
+            "Your feelings matter, and so do you!"
           </p>
         </div>
       </div>
