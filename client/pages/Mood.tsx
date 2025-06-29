@@ -104,13 +104,13 @@ export default function Mood() {
                     <>
                       <div className="flex items-start">
                         <span className="text-lg mr-3">🛌</span>
-                        <p className="text-sm font-rounded text-warm-gray">
+                        <p className="text-sm font-corporate text-warm-gray">
                           Take a power nap or rest with a cozy blanket.
                         </p>
                       </div>
                       <div className="flex items-start">
                         <span className="text-lg mr-3">🍵</span>
-                        <p className="text-sm font-rounded text-warm-gray">
+                        <p className="text-sm font-corporate text-warm-gray">
                           Try some chamomile tea and gentle stretching.
                         </p>
                       </div>
@@ -120,13 +120,13 @@ export default function Mood() {
                     <>
                       <div className="flex items-start">
                         <span className="text-lg mr-3">🤗</span>
-                        <p className="text-sm font-rounded text-warm-gray">
+                        <p className="text-sm font-corporate text-warm-gray">
                           It's okay to feel sad. Reach out to someone you trust.
                         </p>
                       </div>
                       <div className="flex items-start">
                         <span className="text-lg mr-3">📝</span>
-                        <p className="text-sm font-rounded text-warm-gray">
+                        <p className="text-sm font-corporate text-warm-gray">
                           Write down your feelings in a journal.
                         </p>
                       </div>
