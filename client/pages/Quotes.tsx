@@ -135,37 +135,6 @@ export default function Quotes() {
           </Button>
         </div>
 
-        {/* Category Filter */}
-        {!showFavoritesOnly && (
-          <div className="mb-6">
-            <div className="flex items-center mb-3">
-              <Filter size={16} className="mr-2 text-warm-gray" />
-              <span className="font-rounded text-sm text-warm-gray">
-                Filter by category:
-              </span>
-            </div>
-            <div className="flex flex-wrap gap-2">
-              {categories.map((category) => (
-                <Button
-                  key={category}
-                  variant={
-                    selectedCategory === category ? "default" : "outline"
-                  }
-                  size="sm"
-                  onClick={() => filterQuotes(category)}
-                  className={`font-rounded text-xs ${
-                    selectedCategory === category
-                      ? "bg-mint-500 text-white hover:bg-mint-600"
-                      : "border-beige-300 text-warm-gray hover:bg-beige-100"
-                  }`}
-                >
-                  {category === "all" ? "All" : category}
-                </Button>
-              ))}
-            </div>
-          </div>
-        )}
-
         {/* Quotes List */}
         <div className="space-y-4">
           {displayQuotes.length === 0 ? (
