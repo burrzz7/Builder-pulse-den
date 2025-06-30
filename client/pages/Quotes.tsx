@@ -162,38 +162,42 @@ export default function Quotes() {
                   } relative`}
                 >
                   <CardContent className="p-6">
-                    {isToday && (
-                      <div className="absolute top-2 left-2 text-xs font-corporate bg-pink-300 text-text-dark px-2 py-1 rounded-full">
-                        Today's
-                      </div>
-                    )}
-                    <Button
-                      variant="ghost"
-                      size="sm"
-                      onClick={() => toggleFavorite(quote.id)}
-                      className="absolute top-4 right-4 text-text-dark hover:bg-black/10"
-                    >
-                      <Heart
-                        size={18}
-                        className={
-                          isFavorited ? "fill-current text-red-500" : ""
-                        }
-                      />
-                    </Button>
-
-                    <div className="flex items-start mb-4">
+                    {/* Top section with badge and button */}
+                    <div className="flex items-start justify-between mb-4">
                       <div className="flex-1">
-                        <blockquote className="text-text-gray font-corporate leading-relaxed italic mb-3">
-                          "{quote.quote}"
-                        </blockquote>
-                        <div className="flex items-center justify-between">
-                          <p className="text-sm font-corporate text-text-gray">
-                            — {quote.author}
-                          </p>
-                          <span className="text-xs font-corporate bg-white/50 text-text-gray px-2 py-1 rounded-full">
-                            {quote.category}
-                          </span>
-                        </div>
+                        {isToday && (
+                          <div className="text-xs font-corporate bg-pink-300 text-text-dark px-2 py-1 rounded-full inline-block mb-3">
+                            Today's
+                          </div>
+                        )}
+                      </div>
+                      <Button
+                        variant="ghost"
+                        size="sm"
+                        onClick={() => toggleFavorite(quote.id)}
+                        className="text-text-dark hover:bg-black/10 ml-2"
+                      >
+                        <Heart
+                          size={18}
+                          className={
+                            isFavorited ? "fill-current text-red-500" : ""
+                          }
+                        />
+                      </Button>
+                    </div>
+
+                    {/* Quote content */}
+                    <div className="mb-4">
+                      <blockquote className="text-text-gray font-corporate leading-relaxed italic mb-3">
+                        "{quote.quote}"
+                      </blockquote>
+                      <div className="flex items-center justify-between">
+                        <p className="text-sm font-corporate text-text-gray">
+                          — {quote.author}
+                        </p>
+                        <span className="text-xs font-corporate bg-white/50 text-text-gray px-2 py-1 rounded-full">
+                          {quote.category}
+                        </span>
                       </div>
                     </div>
                   </CardContent>
