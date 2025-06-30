@@ -57,14 +57,14 @@ export default function Quotes() {
     : quotes;
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-blush-50 via-mint-50 to-beige-50 pb-20">
+    <div className="min-h-screen bg-gradient-to-br from-white-50 via-pink-50 to-purple-50 pb-20">
       <div className="container mx-auto px-4 py-6 max-w-md">
         {/* Header */}
         <div className="text-center mb-8">
-          <h1 className="text-3xl font-rounded font-bold text-warm-brown mb-2">
+          <h1 className="text-3xl font-corporate font-bold text-text-dark mb-2">
             Daily Quotes
           </h1>
-          <p className="text-warm-gray font-rounded">
+          <p className="text-text-gray font-corporate">
             Inspiration for every day!
           </p>
         </div>
