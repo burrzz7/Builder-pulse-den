@@ -185,9 +185,8 @@ export default function Index() {
         {/* Motivational Footer */}
         <div className="text-center py-4">
           <p className="text-warm-gray font-corporate text-sm">
-            "You're doing amazing, keep going! 🌟"
+            "You're doing amazing, keep going!"
           </p>
-          <div className="text-2xl mt-2">🐾💕🐾</div>
         </div>
       </div>
     </div>
