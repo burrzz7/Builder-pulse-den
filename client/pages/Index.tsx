@@ -159,21 +159,18 @@ export default function Index() {
             </h3>
             <div className="space-y-3">
               <div className="flex items-start">
-                <span className="text-xl mr-3">🐾</span>
                 <p className="text-sm font-corporate text-text-gray">
                   Cats spend 70% of their lives sleeping - that's 13-16 hours a
                   day!
                 </p>
               </div>
               <div className="flex items-start">
-                <span className="text-xl mr-3">💝</span>
                 <p className="text-sm font-corporate text-text-gray">
                   A cat's purr can help heal bones, reduce pain, and lower blood
                   pressure.
                 </p>
               </div>
               <div className="flex items-start">
-                <span className="text-xl mr-3">🌟</span>
                 <p className="text-sm font-corporate text-text-gray">
                   Each cat has a unique nose print, just like human
                   fingerprints!
