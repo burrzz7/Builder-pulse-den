@@ -97,10 +97,10 @@ export default function Quotes() {
                 />
               </Button>
             </div>
-            <blockquote className="text-warm-gray font-rounded leading-relaxed italic text-center mb-3">
+            <blockquote className="text-text-gray font-corporate leading-relaxed italic text-center mb-3">
               "{todaysQuote.quote}"
             </blockquote>
-            <p className="text-sm font-rounded text-warm-gray text-center">
+            <p className="text-sm font-corporate text-text-gray text-center">
               — {todaysQuote.author}
             </p>
           </CardContent>
@@ -112,7 +112,7 @@ export default function Quotes() {
             variant="outline"
             size="sm"
             onClick={shuffleQuotes}
-            className="border-beige-300 text-warm-brown hover:bg-beige-100 font-rounded"
+            className="border-white-200 text-text-dark hover:bg-white-100 font-corporate"
           >
             <Shuffle size={16} className="mr-1" />
             Shuffle
@@ -122,10 +122,10 @@ export default function Quotes() {
             variant={showFavoritesOnly ? "default" : "outline"}
             size="sm"
             onClick={toggleFavoritesView}
-            className={`font-rounded ${
+            className={`font-corporate ${
               showFavoritesOnly
-                ? "bg-blush-500 text-white hover:bg-blush-600"
-                : "border-beige-300 text-warm-brown hover:bg-beige-100"
+                ? "bg-pink-500 text-white hover:bg-pink-600"
+                : "border-white-200 text-text-dark hover:bg-white-100"
             }`}
           >
             <Heart size={16} className="mr-1" />
