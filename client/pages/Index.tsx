@@ -33,15 +33,15 @@ export default function Index() {
   }, []);
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-beige-50 via-blush-50 to-mint-50 pb-20">
+    <div className="min-h-screen bg-gradient-to-br from-white-50 via-pink-50 to-purple-50 pb-20">
       <div className="container mx-auto px-4 py-6 max-w-md">
         {/* Header */}
         <div className="text-center mb-8">
           <div className="text-6xl mb-4">🐱</div>
-          <h1 className="text-4xl font-corporate font-bold text-warm-brown mb-2">
+          <h1 className="text-4xl font-corporate font-bold text-text-dark mb-2">
             MeowU
           </h1>
-          <p className="text-warm-gray font-corporate">
+          <p className="text-text-gray font-corporate">
             Your daily dose of motivation and purrs! 💕
           </p>
         </div>
@@ -49,14 +49,14 @@ export default function Index() {
         {/* Birthday Message */}
         {showBirthday && (
           <Card
-            className={`mb-6 bg-gradient-to-r ${birthdayMessage.color} border-blush-200`}
+            className={`mb-6 bg-gradient-to-r ${birthdayMessage.color} border-pink-200`}
           >
             <CardContent className="p-6 text-center">
               <div className="text-5xl mb-3">{birthdayMessage.emoji}</div>
-              <h3 className="font-corporate text-xl font-bold text-warm-brown mb-2">
+              <h3 className="font-corporate text-xl font-bold text-text-dark mb-2">
                 Special Day! 🎉
               </h3>
-              <p className="text-warm-gray font-corporate leading-relaxed">
+              <p className="text-text-gray font-corporate leading-relaxed">
                 {birthdayMessage.message}
               </p>
             </CardContent>
