@@ -126,7 +126,6 @@ export default function Index() {
         <Card className="mb-6 bg-gradient-to-br from-purple-100 to-pink-100 border-purple-200">
           <CardContent className="p-6">
             <div className="flex items-start mb-4">
-              <div className="text-3xl mr-3">{currentQuote.catEmoji}</div>
               <div className="flex-1">
                 <h3 className="font-corporate text-xl font-bold text-text-dark mb-2">
                   Daily Inspiration
