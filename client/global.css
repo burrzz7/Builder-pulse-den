@@ -11,56 +11,56 @@
    * A different format will require also updating the theme in tailwind.config.ts.
   */
   :root {
-    /* Jasmeow Pastel Theme */
-    --background: 35 20% 97%;
-    --foreground: 20 15% 35%;
+    /* Pastel White, Pink, Purple Theme */
+    --background: 0 0% 98%;
+    --foreground: 240 10% 25%;
 
-    --card: 35 25% 96%;
-    --card-foreground: 20 15% 35%;
+    --card: 0 0% 97%;
+    --card-foreground: 240 10% 25%;
 
-    --popover: 35 25% 96%;
-    --popover-foreground: 20 15% 35%;
+    --popover: 0 0% 97%;
+    --popover-foreground: 240 10% 25%;
 
-    --primary: 350 25% 85%;
-    --primary-foreground: 20 15% 35%;
+    --primary: 330 30% 85%;
+    --primary-foreground: 240 10% 25%;
 
-    --secondary: 150 15% 90%;
-    --secondary-foreground: 20 15% 35%;
+    --secondary: 270 20% 90%;
+    --secondary-foreground: 240 10% 25%;
 
-    --muted: 35 15% 92%;
-    --muted-foreground: 20 10% 60%;
+    --muted: 0 0% 94%;
+    --muted-foreground: 240 5% 50%;
 
-    --accent: 150 20% 88%;
-    --accent-foreground: 20 15% 35%;
+    --accent: 270 25% 88%;
+    --accent-foreground: 240 10% 25%;
 
     --destructive: 0 70% 70%;
     --destructive-foreground: 0 0% 100%;
 
-    --border: 35 15% 88%;
-    --input: 35 15% 88%;
-    --ring: 350 25% 75%;
+    --border: 0 0% 90%;
+    --input: 0 0% 90%;
+    --ring: 330 30% 75%;
 
     --radius: 1rem;
 
-    /* Jasmeow Custom Colors */
-    --beige-50: 35 30% 98%;
-    --beige-100: 35 25% 95%;
-    --beige-200: 35 20% 90%;
-    --beige-500: 35 15% 85%;
-    --beige-600: 35 12% 75%;
+    /* Pastel Custom Colors */
+    --white-50: 0 0% 99%;
+    --white-100: 0 0% 97%;
+    --white-200: 0 0% 94%;
+    --white-500: 0 0% 88%;
+    --white-600: 0 0% 82%;
 
-    --blush-50: 350 30% 97%;
-    --blush-100: 350 25% 92%;
-    --blush-200: 350 20% 87%;
-    --blush-500: 350 25% 82%;
+    --pink-50: 330 40% 98%;
+    --pink-100: 330 35% 94%;
+    --pink-200: 330 30% 88%;
+    --pink-500: 330 35% 82%;
 
-    --mint-50: 150 25% 97%;
-    --mint-100: 150 20% 92%;
-    --mint-200: 150 15% 87%;
-    --mint-500: 150 20% 82%;
+    --purple-50: 270 30% 98%;
+    --purple-100: 270 25% 94%;
+    --purple-200: 270 20% 88%;
+    --purple-500: 270 25% 82%;
 
-    --warm-gray: 20 10% 60%;
-    --warm-brown: 20 15% 35%;
+    --text-gray: 240 5% 50%;
+    --text-dark: 240 10% 25%;
   }
 
   .dark {
