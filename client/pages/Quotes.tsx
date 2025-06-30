@@ -134,6 +134,8 @@ export default function Quotes() {
           </Button>
         </div>
 
+
+
         {/* Quotes List */}
         <div className="space-y-4">
           {displayQuotes.length === 0 ? (
@@ -209,16 +211,15 @@ export default function Quotes() {
         {/* Stats */}
         <Card className="mt-6 bg-beige-100 border-beige-200">
           <CardContent className="p-4">
-            <div className="flex items-center justify-around text-center">
+            <div className="flex items-center mb-4">
               <div>
-                <div className="text-lg font-handwritten font-bold text-warm-brown">
-                  {motivationalQuotes.length}
-                </div>
-                <div className="text-xs font-rounded text-warm-gray">
-                  Total Quotes
-                </div>
+                <h3 className="font-rounded text-lg font-bold text-warm-brown">
+                  Today's Featured Quote
+                </h3>
+                <p className="text-sm font-rounded text-warm-gray">
+                  Your daily dose of inspiration
+                </p>
               </div>
-              <div>
                 <div className="text-lg font-handwritten font-bold text-warm-brown">
                   {favorites.length}
                 </div>
