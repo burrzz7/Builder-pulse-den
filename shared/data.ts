@@ -13,14 +13,12 @@ export const motivationalQuotes = [
       "I want to still have a sharp pen and a thin skin and an open heart.",
     author: "Taylor Swift",
     category: "creativity",
-    catEmoji: "😸",
   },
   {
     id: 3,
     quote: "You are not the opinion of someone who doesn't know you.",
     author: "Taylor Swift",
     category: "confidence",
-    catEmoji: "😺",
   },
   {
     id: 4,
@@ -28,35 +26,30 @@ export const motivationalQuotes = [
       "I'm learning that you can be comfortable and still challenge yourself.",
     author: "Olivia Rodrigo",
     category: "growth",
-    catEmoji: "🙀",
   },
   {
     id: 5,
     quote: "I think the best songs come from being vulnerable and honest.",
     author: "Olivia Rodrigo",
     category: "authenticity",
-    catEmoji: "😻",
   },
   {
     id: 6,
     quote: "It's okay to not be okay sometimes.",
     author: "Olivia Rodrigo",
     category: "self-care",
-    catEmoji: "🐾",
   },
   {
     id: 7,
     quote: "I'm learning to love the journey and not just the destination.",
     author: "Sabrina Carpenter",
     category: "journey",
-    catEmoji: "😽",
   },
   {
     id: 8,
     quote: "Be yourself, because that's when you're the most beautiful.",
     author: "Sabrina Carpenter",
     category: "authenticity",
-    catEmoji: "🐈",
   },
   {
     id: 9,
@@ -64,63 +57,54 @@ export const motivationalQuotes = [
       "Sometimes the best thing you can do is just breathe and trust the process.",
     author: "Sabrina Carpenter",
     category: "mindfulness",
-    catEmoji: "😿",
   },
   {
     id: 10,
     quote: "Growth is uncomfortable, but staying the same is worse.",
     author: "Gracie Abrams",
     category: "growth",
-    catEmoji: "🐱‍👤",
   },
   {
     id: 11,
     quote: "Your feelings are valid, even when they're complicated.",
     author: "Gracie Abrams",
     category: "emotions",
-    catEmoji: "🐱‍💻",
   },
   {
     id: 12,
     quote: "It's brave to feel everything deeply.",
     author: "Gracie Abrams",
     category: "courage",
-    catEmoji: "🐱‍🏍",
   },
   {
     id: 13,
     quote: "You're allowed to change your mind and grow.",
     author: "Taylor Swift",
     category: "growth",
-    catEmoji: "😸",
   },
   {
     id: 14,
     quote: "Your potential is endless.",
     author: "Olivia Rodrigo",
     category: "motivation",
-    catEmoji: "🐱",
   },
   {
     id: 15,
     quote: "Trust yourself, you know more than you think you do.",
     author: "Sabrina Carpenter",
     category: "confidence",
-    catEmoji: "😺",
   },
   {
     id: 16,
     quote: "The best way to make your dreams come true is to wake up.",
     author: "Taylor Swift",
     category: "motivation",
-    catEmoji: "🐱",
   },
   {
     id: 17,
     quote: "I've learned that you can't predict or plan for every moment.",
     author: "Olivia Rodrigo",
     category: "acceptance",
-    catEmoji: "😸",
   },
   {
     id: 18,
@@ -128,7 +112,6 @@ export const motivationalQuotes = [
       "Sometimes the most ordinary things could be made extraordinary simply by doing them with the right people.",
     author: "Sabrina Carpenter",
     category: "relationships",
-    catEmoji: "😻",
   },
   {
     id: 19,
@@ -136,21 +119,18 @@ export const motivationalQuotes = [
       "You have to stop thinking that the way other people see you is more valid than the way you see yourself.",
     author: "Gracie Abrams",
     category: "self-worth",
-    catEmoji: "🐾",
   },
   {
     id: 20,
     quote: "Life is a tough crowd, and you're up there alone.",
     author: "Taylor Swift",
     category: "resilience",
-    catEmoji: "😺",
   },
   {
     id: 21,
     quote: "I think it's important to remember that we all go through things.",
     author: "Olivia Rodrigo",
     category: "empathy",
-    catEmoji: "🙀",
   },
   {
     id: 22,
@@ -158,7 +138,6 @@ export const motivationalQuotes = [
       "Don't let anyone dim your light simply because it's shining in their eyes.",
     author: "Sabrina Carpenter",
     category: "confidence",
-    catEmoji: "😽",
   },
   {
     id: 23,
@@ -166,7 +145,6 @@ export const motivationalQuotes = [
       "The most beautiful people are those who have known defeat, known suffering, known struggle, known loss, and have found their way out of the depths.",
     author: "Gracie Abrams",
     category: "resilience",
-    catEmoji: "🐈",
   },
   {
     id: 24,
@@ -174,7 +152,6 @@ export const motivationalQuotes = [
       "You're not required to set yourself on fire to keep other people warm.",
     author: "Taylor Swift",
     category: "boundaries",
-    catEmoji: "😿",
   },
   {
     id: 25,
@@ -182,21 +159,18 @@ export const motivationalQuotes = [
       "Sometimes you have to forget what's gone, appreciate what still remains, and look forward to what's coming next.",
     author: "Olivia Rodrigo",
     category: "mindfulness",
-    catEmoji: "🐱‍👤",
   },
   {
     id: 26,
     quote: "Be yourself because an original is worth more than a copy.",
     author: "Sabrina Carpenter",
     category: "authenticity",
-    catEmoji: "🐱‍💻",
   },
   {
     id: 27,
     quote: "Your worth isn't measured by your productivity.",
     author: "Gracie Abrams",
     category: "self-care",
-    catEmoji: "🐱‍🏍",
   },
   {
     id: 28,
@@ -204,7 +178,6 @@ export const motivationalQuotes = [
       "You can't go back and change the beginning, but you can start where you are and change the ending.",
     author: "Taylor Swift",
     category: "growth",
-    catEmoji: "😸",
   },
   {
     id: 29,
@@ -212,7 +185,6 @@ export const motivationalQuotes = [
       "Sometimes the hardest part isn't letting go but rather learning to start over.",
     author: "Olivia Rodrigo",
     category: "new beginnings",
-    catEmoji: "🐱",
   },
   {
     id: 30,
@@ -220,7 +192,6 @@ export const motivationalQuotes = [
       "You are enough just as you are. Each emotion you feel, everything in your life, everything you do or do not do... where you are and who you are right now is enough.",
     author: "Sabrina Carpenter",
     category: "self-acceptance",
-    catEmoji: "😺",
   },
 ];
 
@@ -233,7 +204,7 @@ export const moodCats = [
     mood: "Happy",
     description: "Feeling bright and optimistic today!",
     color: "from-yellow-200 to-orange-200",
-    message: "You're radiating positive energy! Keep shining, beautiful! ✨",
+    message: "You're radiating positive energy! Keep shining, beautiful!",
   },
   {
     id: "sleepy",
@@ -242,7 +213,7 @@ export const moodCats = [
     mood: "Sleepy",
     description: "Need some rest and cozy vibes",
     color: "from-purple-200 to-blue-200",
-    message: "It's okay to take it slow today. Rest is productive too! 💤",
+    message: "It's okay to take it slow today. Rest is productive too!",
   },
   {
     id: "sad",
@@ -252,7 +223,7 @@ export const moodCats = [
     description: "Having a tough day",
     color: "from-blue-200 to-indigo-200",
     message:
-      "Your feelings are valid. Tomorrow is a new day full of possibilities. 🌈",
+      "Your feelings are valid. Tomorrow is a new day full of possibilities.",
   },
   {
     id: "angry",
@@ -262,7 +233,7 @@ export const moodCats = [
     description: "Feeling frustrated or upset",
     color: "from-red-200 to-pink-200",
     message:
-      "Channel that energy into something powerful. You're stronger than you know! 🔥",
+      "Channel that energy into something powerful. You're stronger than you know!",
   },
   {
     id: "curious",
@@ -272,9 +243,8 @@ export const moodCats = [
     description: "Ready to explore and learn",
     color: "from-green-200 to-teal-200",
     message:
-      "Your curiosity will lead you to amazing discoveries! Keep exploring! 🔍",
+      "Your curiosity will lead you to amazing discoveries! Keep exploring!",
   },
-
   {
     id: "anxious",
     name: "Worry",
@@ -283,7 +253,7 @@ export const moodCats = [
     description: "Feeling overwhelmed or nervous",
     color: "from-gray-200 to-slate-200",
     message:
-      "Take deep breaths. You've overcome challenges before, and you'll do it again! 🌸",
+      "Take deep breaths. You've overcome challenges before, and you'll do it again!",
   },
   {
     id: "loving",
@@ -293,7 +263,7 @@ export const moodCats = [
     description: "Full of love and gratitude",
     color: "from-rose-200 to-pink-200",
     message:
-      "Your heart is so full of love! Share that beautiful energy with the world! 💕",
+      "Your heart is so full of love! Share that beautiful energy with the world!",
   },
   {
     id: "focused",
@@ -302,7 +272,7 @@ export const moodCats = [
     mood: "Focused",
     description: "Ready to tackle goals and tasks",
     color: "from-amber-200 to-yellow-200",
-    message: "You're in the zone! Your dedication will pay off. Keep going! 📚",
+    message: "You're in the zone! Your dedication will pay off. Keep going!",
   },
 ];
 
@@ -314,7 +284,7 @@ export const dailyCats = [
     emoji: "🌙",
     character: "The Dreamy Philosopher",
     message:
-      "Today is full of possibilities waiting to unfold. Trust in your journey! ✨",
+      "Today is full of possibilities waiting to unfold. Trust in your journey!",
     color: "from-indigo-200 to-purple-200",
     personality: "wise, calming, introspective",
   },
@@ -324,7 +294,7 @@ export const dailyCats = [
     emoji: "⚡",
     character: "The Energetic Motivator",
     message:
-      "You've got the power to make today amazing! Let's go conquer those goals! 🚀",
+      "You've got the power to make today amazing! Let's go conquer those goals!",
     color: "from-orange-200 to-red-200",
     personality: "energetic, encouraging, bold",
   },
@@ -334,7 +304,7 @@ export const dailyCats = [
     emoji: "🌿",
     character: "The Gentle Healer",
     message:
-      "Remember to be kind to yourself today. Growth happens in small, gentle steps. 🌱",
+      "Remember to be kind to yourself today. Growth happens in small, gentle steps.",
     color: "from-green-200 to-emerald-200",
     personality: "nurturing, peaceful, growth-oriented",
   },
@@ -344,7 +314,7 @@ export const dailyCats = [
     emoji: "🎭",
     character: "The Creative Spark",
     message:
-      "Your creativity is your superpower! Let your imagination run wild today! 🎨",
+      "Your creativity is your superpower! Let your imagination run wild today!",
     color: "from-purple-200 to-pink-200",
     personality: "artistic, imaginative, expressive",
   },
@@ -354,7 +324,7 @@ export const dailyCats = [
     emoji: "📚",
     character: "The Wise Scholar",
     message:
-      "Every challenge is a lesson in disguise. You're learning and growing every day! 🎓",
+      "Every challenge is a lesson in disguise. You're learning and growing every day!",
     color: "from-blue-200 to-teal-200",
     personality: "intellectual, patient, wise",
   },
@@ -364,7 +334,7 @@ export const dailyCats = [
     emoji: "💎",
     character: "The Confident Queen",
     message:
-      "You are absolutely magnificent! Own your brilliance and shine bright today! 👑",
+      "You are absolutely magnificent! Own your brilliance and shine bright today!",
     color: "from-rose-200 to-red-200",
     personality: "confident, empowering, radiant",
   },
@@ -374,7 +344,7 @@ export const dailyCats = [
     emoji: "🌶️",
     character: "The Spicy Adventurer",
     message:
-      "Life is an adventure waiting to happen! Take that leap of faith today! 🌟",
+      "Life is an adventure waiting to happen! Take that leap of faith today!",
     color: "from-yellow-200 to-orange-200",
     personality: "adventurous, bold, exciting",
   },
@@ -384,19 +354,19 @@ export const dailyCats = [
 export const birthdayMessages = [
   {
     message:
-      "Happy Birthday, beautiful soul! 🎂 May this year bring you endless joy, success, and cozy cat cuddles! 🎉🐱",
+      "Happy Birthday, beautiful soul! May this year bring you endless joy, success, and cozy cat cuddles!",
     emoji: "🎂",
     color: "from-pink-200 to-purple-200",
   },
   {
     message:
-      "It's your special day! 🌟 Here's to another year of growth, dreams coming true, and purr-fect moments! 🎈",
+      "It's your special day! Here's to another year of growth, dreams coming true, and purr-fect moments!",
     emoji: "🎈",
     color: "from-blue-200 to-pink-200",
   },
   {
     message:
-      "Birthday wishes from all your feline friends! ��� May your year be filled with love, laughter, and amazing adventures! 🎊",
+      "Birthday wishes from all your feline friends! May your year be filled with love, laughter, and amazing adventures!",
     emoji: "🎊",
     color: "from-yellow-200 to-pink-200",
   },
