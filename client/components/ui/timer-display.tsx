@@ -116,9 +116,8 @@ export default function TimerDisplay({
             {formatTime(timeLeft)}
           </div>
           <div className="text-lg font-rounded text-warm-gray">
-            {isBreak ? "Break Time! 🐱" : "Focus Time 📚"}
+            {isBreak ? "Break Time!" : "Focus Time"}
           </div>
-          <div className="text-6xl mt-2">{isBreak ? "😴" : "🎯"}</div>
         </div>
       </div>
 
