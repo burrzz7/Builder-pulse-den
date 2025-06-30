@@ -27,7 +27,6 @@ export default function Mood() {
       <div className="container mx-auto px-4 py-6 max-w-md">
         {/* Header */}
         <div className="text-center mb-8">
-          <div className="text-6xl mb-4">😸</div>
           <h1 className="text-3xl font-corporate font-bold text-warm-brown mb-2">
             Which Cat Do You Feel Today?
           </h1>
