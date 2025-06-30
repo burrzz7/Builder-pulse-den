@@ -51,29 +51,29 @@ export default {
           DEFAULT: "hsl(var(--card))",
           foreground: "hsl(var(--card-foreground))",
         },
-        // Jasmeow pastel theme colors
-        beige: {
-          50: "hsl(var(--beige-50))",
-          100: "hsl(var(--beige-100))",
-          200: "hsl(var(--beige-200))",
-          500: "hsl(var(--beige-500))",
-          600: "hsl(var(--beige-600))",
+        // Pastel white, pink, purple theme colors
+        white: {
+          50: "hsl(var(--white-50))",
+          100: "hsl(var(--white-100))",
+          200: "hsl(var(--white-200))",
+          500: "hsl(var(--white-500))",
+          600: "hsl(var(--white-600))",
         },
-        blush: {
-          50: "hsl(var(--blush-50))",
-          100: "hsl(var(--blush-100))",
-          200: "hsl(var(--blush-200))",
-          500: "hsl(var(--blush-500))",
+        pink: {
+          50: "hsl(var(--pink-50))",
+          100: "hsl(var(--pink-100))",
+          200: "hsl(var(--pink-200))",
+          500: "hsl(var(--pink-500))",
         },
-        mint: {
-          50: "hsl(var(--mint-50))",
-          100: "hsl(var(--mint-100))",
-          200: "hsl(var(--mint-200))",
-          500: "hsl(var(--mint-500))",
+        purple: {
+          50: "hsl(var(--purple-50))",
+          100: "hsl(var(--purple-100))",
+          200: "hsl(var(--purple-200))",
+          500: "hsl(var(--purple-500))",
         },
-        warm: {
-          gray: "hsl(var(--warm-gray))",
-          brown: "hsl(var(--warm-brown))",
+        text: {
+          gray: "hsl(var(--text-gray))",
+          dark: "hsl(var(--text-dark))",
         },
       },
       borderRadius: {
