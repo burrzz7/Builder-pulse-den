@@ -123,18 +123,18 @@ export default function Index() {
         </div>
 
         {/* Daily Quote */}
-        <Card className="mb-6 bg-gradient-to-br from-mint-100 to-blush-100 border-mint-200">
+        <Card className="mb-6 bg-gradient-to-br from-purple-100 to-pink-100 border-purple-200">
           <CardContent className="p-6">
             <div className="flex items-start mb-4">
               <div className="text-3xl mr-3">{currentQuote.catEmoji}</div>
               <div className="flex-1">
-                <h3 className="font-corporate text-xl font-bold text-warm-brown mb-2">
+                <h3 className="font-corporate text-xl font-bold text-text-dark mb-2">
                   Daily Inspiration
                 </h3>
-                <blockquote className="text-warm-gray font-corporate leading-relaxed italic">
+                <blockquote className="text-text-gray font-corporate leading-relaxed italic">
                   "{currentQuote.quote}"
                 </blockquote>
-                <p className="text-sm font-corporate text-warm-gray mt-2">
+                <p className="text-sm font-corporate text-text-gray mt-2">
                   — {currentQuote.author}
                 </p>
               </div>
@@ -143,11 +143,43 @@ export default function Index() {
               <Button
                 variant="ghost"
                 size="sm"
-                className="text-warm-brown hover:bg-mint-200 font-corporate"
+                className="text-text-dark hover:bg-purple-200 font-corporate"
               >
                 More quotes <ArrowRight size={16} className="ml-1" />
               </Button>
             </Link>
+          </CardContent>
+        </Card>
+
+        {/* Did You Know */}
+        <Card className="mb-6 bg-purple-100 border-purple-200">
+          <CardContent className="p-6">
+            <h3 className="font-corporate text-lg font-bold text-text-dark mb-4 text-center">
+              Did You Know?
+            </h3>
+            <div className="space-y-3">
+              <div className="flex items-start">
+                <span className="text-xl mr-3">🐾</span>
+                <p className="text-sm font-corporate text-text-gray">
+                  Cats spend 70% of their lives sleeping - that's 13-16 hours a
+                  day!
+                </p>
+              </div>
+              <div className="flex items-start">
+                <span className="text-xl mr-3">💝</span>
+                <p className="text-sm font-corporate text-text-gray">
+                  A cat's purr can help heal bones, reduce pain, and lower blood
+                  pressure.
+                </p>
+              </div>
+              <div className="flex items-start">
+                <span className="text-xl mr-3">🌟</span>
+                <p className="text-sm font-corporate text-text-gray">
+                  Each cat has a unique nose print, just like human
+                  fingerprints!
+                </p>
+              </div>
+            </div>
           </CardContent>
         </Card>
 
