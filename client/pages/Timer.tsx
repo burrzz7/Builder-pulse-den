@@ -184,7 +184,7 @@ export default function Timer() {
 
         {/* Motivational Message */}
         <div className="text-center mt-6 py-4 text-warm-gray text-sm font-rounded">
-          {getRandomMessage()}
+          One step closer to your goals!
         </div>
       </div>
     </div>
