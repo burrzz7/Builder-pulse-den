@@ -242,9 +242,8 @@ export default function Quotes() {
         {/* Motivational Footer */}
         <div className="text-center py-6">
           <p className="text-warm-gray font-rounded text-sm">
-            "Let these words inspire your beautiful journey! ✨"
+            "Let these words inspire your beautiful journey!"
           </p>
-          <div className="text-2xl mt-2">🐾📖🐾</div>
         </div>
       </div>
     </div>
