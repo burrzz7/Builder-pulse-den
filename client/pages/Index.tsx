@@ -54,7 +54,7 @@ export default function Index() {
             <CardContent className="p-6 text-center">
               <div className="text-5xl mb-3">{birthdayMessage.emoji}</div>
               <h3 className="font-corporate text-xl font-bold text-text-dark mb-2">
-                Special Day! 🎉
+                Special Day!
               </h3>
               <p className="text-text-gray font-corporate leading-relaxed">
                 {birthdayMessage.message}
