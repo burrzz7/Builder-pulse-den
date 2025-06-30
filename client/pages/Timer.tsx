@@ -11,6 +11,7 @@ const studyTips = [
   "🎵 Try lo-fi music for concentration",
   "📝 Keep a notebook for random thoughts",
   "☕ A warm drink can be comforting",
+  "💧 Drink enough water throughout the day",
 ];
 
 const motivationalMessages = [
