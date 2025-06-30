@@ -221,9 +221,8 @@ export default function CatOfTheDay() {
         {/* Motivational Footer */}
         <div className="text-center py-6">
           <p className="text-warm-gray font-rounded text-sm">
-            "You're pawsome just the way you are! 🌟"
+            "You're pawsome just the way you are!"
           </p>
-          <div className="text-2xl mt-2">🐾💕🐾</div>
         </div>
       </div>
     </div>
