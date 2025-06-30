@@ -91,7 +91,6 @@ export default function Timer() {
         <Card className="mb-6 bg-mint-100 border-mint-200">
           <CardContent className="p-4">
             <div className="flex items-center mb-2">
-              <div className="text-2xl mr-2">💡</div>
               <h3 className="font-handwritten font-bold text-warm-brown">
                 Study Tip
               </h3>
