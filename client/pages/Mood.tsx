@@ -86,14 +86,12 @@ export default function Mood() {
                   {selectedCat.id === "happy" && (
                     <>
                       <div className="flex items-start">
-                        <span className="text-lg mr-3">🌟</span>
                         <p className="text-sm font-corporate text-warm-gray">
                           Share your joy! Call a friend or write in a gratitude
                           journal.
                         </p>
                       </div>
                       <div className="flex items-start">
-                        <span className="text-lg mr-3">🎵</span>
                         <p className="text-sm font-corporate text-warm-gray">
                           Play your favorite upbeat songs and dance!
                         </p>
@@ -103,13 +101,11 @@ export default function Mood() {
                   {selectedCat.id === "sleepy" && (
                     <>
                       <div className="flex items-start">
-                        <span className="text-lg mr-3">🛌</span>
                         <p className="text-sm font-corporate text-warm-gray">
                           Take a power nap or rest with a cozy blanket.
                         </p>
                       </div>
                       <div className="flex items-start">
-                        <span className="text-lg mr-3">🍵</span>
                         <p className="text-sm font-corporate text-warm-gray">
                           Try some chamomile tea and gentle stretching.
                         </p>
@@ -119,13 +115,11 @@ export default function Mood() {
                   {selectedCat.id === "sad" && (
                     <>
                       <div className="flex items-start">
-                        <span className="text-lg mr-3">🤗</span>
                         <p className="text-sm font-corporate text-warm-gray">
                           It's okay to feel sad. Reach out to someone you trust.
                         </p>
                       </div>
                       <div className="flex items-start">
-                        <span className="text-lg mr-3">📝</span>
                         <p className="text-sm font-corporate text-warm-gray">
                           Write down your feelings in a journal.
                         </p>
@@ -135,13 +129,11 @@ export default function Mood() {
                   {selectedCat.id === "angry" && (
                     <>
                       <div className="flex items-start">
-                        <span className="text-lg mr-3">🧘</span>
                         <p className="text-sm font-corporate text-warm-gray">
                           Take deep breaths and count to ten slowly.
                         </p>
                       </div>
                       <div className="flex items-start">
-                        <span className="text-lg mr-3">🏃</span>
                         <p className="text-sm font-corporate text-warm-gray">
                           Channel that energy into physical exercise.
                         </p>
@@ -151,31 +143,13 @@ export default function Mood() {
                   {selectedCat.id === "curious" && (
                     <>
                       <div className="flex items-start">
-                        <span className="text-lg mr-3">📚</span>
                         <p className="text-sm font-corporate text-warm-gray">
                           Read something new or explore a interesting topic!
                         </p>
                       </div>
                       <div className="flex items-start">
-                        <span className="text-lg mr-3">🔍</span>
                         <p className="text-sm font-corporate text-warm-gray">
                           Try a new hobby or skill you've been curious about.
-                        </p>
-                      </div>
-                    </>
-                  )}
-                  {selectedCat.id === "playful" && (
-                    <>
-                      <div className="flex items-start">
-                        <span className="text-lg mr-3">🎮</span>
-                        <p className="text-sm font-corporate text-warm-gray">
-                          Play a fun game or do something creative!
-                        </p>
-                      </div>
-                      <div className="flex items-start">
-                        <span className="text-lg mr-3">🎨</span>
-                        <p className="text-sm font-corporate text-warm-gray">
-                          Express yourself through art, music, or writing.
                         </p>
                       </div>
                     </>
@@ -183,13 +157,11 @@ export default function Mood() {
                   {selectedCat.id === "anxious" && (
                     <>
                       <div className="flex items-start">
-                        <span className="text-lg mr-3">🌸</span>
                         <p className="text-sm font-corporate text-warm-gray">
                           Practice mindfulness or try a breathing exercise.
                         </p>
                       </div>
                       <div className="flex items-start">
-                        <span className="text-lg mr-3">☕</span>
                         <p className="text-sm font-corporate text-warm-gray">
                           Make a warm drink and focus on the present moment.
                         </p>
@@ -199,13 +171,11 @@ export default function Mood() {
                   {selectedCat.id === "loving" && (
                     <>
                       <div className="flex items-start">
-                        <span className="text-lg mr-3">💌</span>
                         <p className="text-sm font-corporate text-warm-gray">
                           Send a message to someone you care about.
                         </p>
                       </div>
                       <div className="flex items-start">
-                        <span className="text-lg mr-3">🌺</span>
                         <p className="text-sm font-corporate text-warm-gray">
                           Practice self-love with positive affirmations.
                         </p>
@@ -215,13 +185,11 @@ export default function Mood() {
                   {selectedCat.id === "focused" && (
                     <>
                       <div className="flex items-start">
-                        <span className="text-lg mr-3">🎯</span>
                         <p className="text-sm font-corporate text-warm-gray">
                           Make a to-do list and tackle one task at a time.
                         </p>
                       </div>
                       <div className="flex items-start">
-                        <span className="text-lg mr-3">⏰</span>
                         <p className="text-sm font-corporate text-warm-gray">
                           Use the study timer to maintain your focus!
                         </p>
