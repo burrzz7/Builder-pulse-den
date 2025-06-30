@@ -65,17 +65,17 @@ export default function Index() {
 
         {/* Current Mood Display */}
         {selectedMood && (
-          <Card className="mb-6 bg-gradient-to-r from-purple-100 to-blue-100 border-purple-200">
+          <Card className="mb-6 bg-gradient-to-r from-purple-100 to-pink-100 border-purple-200">
             <CardContent className="p-4">
               <div className="flex items-center">
                 <div className="text-3xl mr-3">
                   {moodCats.find((cat) => cat.id === selectedMood)?.emoji}
                 </div>
                 <div className="flex-1">
-                  <h3 className="font-corporate text-lg font-bold text-warm-brown">
+                  <h3 className="font-corporate text-lg font-bold text-text-dark">
                     Current Mood
                   </h3>
-                  <p className="text-sm font-corporate text-warm-gray">
+                  <p className="text-sm font-corporate text-text-gray">
                     You're feeling{" "}
                     {moodCats
                       .find((cat) => cat.id === selectedMood)
@@ -87,7 +87,7 @@ export default function Index() {
                   <Button
                     variant="ghost"
                     size="sm"
-                    className="text-warm-brown hover:bg-purple-200 font-corporate"
+                    className="text-text-dark hover:bg-purple-200 font-corporate"
                   >
                     Change
                   </Button>
@@ -100,10 +100,10 @@ export default function Index() {
         {/* Quick Actions */}
         <div className="grid grid-cols-2 gap-4 mb-8">
           <Link to="/timer">
-            <Card className="bg-blush-100 border-blush-200 hover:bg-blush-200 transition-colors cursor-pointer">
+            <Card className="bg-pink-100 border-pink-200 hover:bg-pink-200 transition-colors cursor-pointer">
               <CardContent className="p-4 text-center">
-                <Timer className="mx-auto mb-2 text-warm-brown" size={24} />
-                <h3 className="font-corporate font-semibold text-warm-brown text-sm">
+                <Timer className="mx-auto mb-2 text-text-dark" size={24} />
+                <h3 className="font-corporate font-semibold text-text-dark text-sm">
                   Study Timer
                 </h3>
               </CardContent>
@@ -111,10 +111,10 @@ export default function Index() {
           </Link>
 
           <Link to="/mood">
-            <Card className="bg-mint-100 border-mint-200 hover:bg-mint-200 transition-colors cursor-pointer">
+            <Card className="bg-purple-100 border-purple-200 hover:bg-purple-200 transition-colors cursor-pointer">
               <CardContent className="p-4 text-center">
-                <Sparkles className="mx-auto mb-2 text-warm-brown" size={24} />
-                <h3 className="font-corporate font-semibold text-warm-brown text-sm">
+                <Sparkles className="mx-auto mb-2 text-text-dark" size={24} />
+                <h3 className="font-corporate font-semibold text-text-dark text-sm">
                   How I Feel
                 </h3>
               </CardContent>
