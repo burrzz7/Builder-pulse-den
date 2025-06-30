@@ -64,54 +64,54 @@
   }
 
   .dark {
-    /* Dark mode adaptation of Jasmeow theme */
-    --background: 20 15% 8%;
-    --foreground: 35 20% 90%;
+    /* Dark mode adaptation of pastel theme */
+    --background: 240 10% 8%;
+    --foreground: 0 0% 90%;
 
-    --card: 20 15% 10%;
-    --card-foreground: 35 20% 90%;
+    --card: 240 10% 10%;
+    --card-foreground: 0 0% 90%;
 
-    --popover: 20 15% 10%;
-    --popover-foreground: 35 20% 90%;
+    --popover: 240 10% 10%;
+    --popover-foreground: 0 0% 90%;
 
-    --primary: 350 20% 25%;
-    --primary-foreground: 35 20% 90%;
+    --primary: 330 25% 25%;
+    --primary-foreground: 0 0% 90%;
 
-    --secondary: 20 10% 15%;
-    --secondary-foreground: 35 20% 90%;
+    --secondary: 240 10% 15%;
+    --secondary-foreground: 0 0% 90%;
 
-    --muted: 20 10% 15%;
-    --muted-foreground: 35 15% 70%;
+    --muted: 240 10% 15%;
+    --muted-foreground: 240 5% 70%;
 
-    --accent: 150 15% 20%;
-    --accent-foreground: 35 20% 90%;
+    --accent: 270 20% 20%;
+    --accent-foreground: 0 0% 90%;
 
     --destructive: 0 70% 50%;
     --destructive-foreground: 0 0% 100%;
 
-    --border: 20 10% 20%;
-    --input: 20 10% 20%;
-    --ring: 350 20% 40%;
+    --border: 240 10% 20%;
+    --input: 240 10% 20%;
+    --ring: 330 25% 40%;
 
     /* Dark mode custom colors */
-    --beige-50: 35 15% 12%;
-    --beige-100: 35 12% 15%;
-    --beige-200: 35 10% 20%;
-    --beige-500: 35 8% 30%;
-    --beige-600: 35 6% 40%;
+    --white-50: 240 10% 12%;
+    --white-100: 240 10% 15%;
+    --white-200: 240 10% 20%;
+    --white-500: 240 8% 30%;
+    --white-600: 240 6% 40%;
 
-    --blush-50: 350 15% 12%;
-    --blush-100: 350 12% 15%;
-    --blush-200: 350 10% 20%;
-    --blush-500: 350 15% 25%;
+    --pink-50: 330 20% 12%;
+    --pink-100: 330 15% 15%;
+    --pink-200: 330 10% 20%;
+    --pink-500: 330 15% 25%;
 
-    --mint-50: 150 15% 12%;
-    --mint-100: 150 12% 15%;
-    --mint-200: 150 10% 20%;
-    --mint-500: 150 15% 25%;
+    --purple-50: 270 20% 12%;
+    --purple-100: 270 15% 15%;
+    --purple-200: 270 10% 20%;
+    --purple-500: 270 15% 25%;
 
-    --warm-gray: 35 15% 70%;
-    --warm-brown: 35 20% 90%;
+    --text-gray: 240 5% 70%;
+    --text-dark: 0 0% 90%;
   }
 }
 
