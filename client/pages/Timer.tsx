@@ -44,12 +44,11 @@ export default function Timer() {
       <div className="container mx-auto px-4 py-6 max-w-md">
         {/* Header */}
         <div className="text-center mb-8">
-          <div className="text-5xl mb-4">📚</div>
           <h1 className="text-3xl font-handwritten font-bold text-warm-brown mb-2">
             Study Timer
           </h1>
           <p className="text-warm-gray font-rounded">
-            Focus with your study buddy! 🐱
+            Focus with your study buddy!
           </p>
         </div>
 
