@@ -70,14 +70,14 @@ export default function Quotes() {
         </div>
 
         {/* Today's Featured Quote */}
-        <Card className="mb-6 bg-gradient-to-r from-yellow-200 to-orange-200 border-yellow-300">
+        <Card className="mb-6 bg-gradient-to-r from-pink-200 to-purple-200 border-pink-300">
           <CardContent className="p-6">
             <div className="flex items-center mb-4">
               <div>
-                <h3 className="font-handwritten text-lg font-bold text-warm-brown">
+                <h3 className="font-corporate text-lg font-bold text-text-dark">
                   Today's Featured Quote
                 </h3>
-                <p className="text-sm font-rounded text-warm-gray">
+                <p className="text-sm font-corporate text-text-gray">
                   Your daily dose of inspiration
                 </p>
               </div>
@@ -85,7 +85,7 @@ export default function Quotes() {
                 variant="ghost"
                 size="sm"
                 onClick={() => toggleFavorite(todaysQuote.id)}
-                className="ml-auto text-warm-brown hover:bg-black/10"
+                className="ml-auto text-text-dark hover:bg-black/10"
               >
                 <Heart
                   size={20}
