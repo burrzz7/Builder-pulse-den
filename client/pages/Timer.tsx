@@ -5,13 +5,13 @@ import { Button } from "../components/ui/button";
 import { Settings, Coffee, BookOpen } from "lucide-react";
 
 const studyTips = [
-  "🐱 Take stretch breaks like a cat!",
-  "💧 Stay hydrated - your brain needs water!",
-  "🌱 Fresh air helps with focus",
-  "🎵 Try lo-fi music for concentration",
-  "📝 Keep a notebook for random thoughts",
-  "☕ A warm drink can be comforting",
-  "💧 Drink enough water throughout the day",
+  "Take stretch breaks like a cat!",
+  "Stay hydrated - your brain needs water!",
+  "Fresh air helps with focus",
+  "Try lo-fi music for concentration",
+  "Keep a notebook for random thoughts",
+  "A warm drink can be comforting",
+  "Drink enough water throughout the day",
 ];
 
 const motivationalMessages = [
