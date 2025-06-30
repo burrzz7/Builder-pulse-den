@@ -6,7 +6,6 @@ export const motivationalQuotes = [
       "The lesson I've learned the most often in life is that you're always going to know more in the future than you know now.",
     author: "Taylor Swift",
     category: "growth",
-    catEmoji: "🐱",
   },
   {
     id: 2,
