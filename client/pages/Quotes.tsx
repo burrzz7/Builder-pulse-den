@@ -73,7 +73,6 @@ export default function Quotes() {
         <Card className="mb-6 bg-gradient-to-r from-yellow-200 to-orange-200 border-yellow-300">
           <CardContent className="p-6">
             <div className="flex items-center mb-4">
-              <div className="text-3xl mr-3">⭐</div>
               <div>
                 <h3 className="font-handwritten text-lg font-bold text-warm-brown">
                   Today's Featured Quote
