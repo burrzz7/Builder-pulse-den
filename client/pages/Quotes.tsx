@@ -136,12 +136,12 @@ export default function Quotes() {
         {/* Quotes List */}
         <div className="space-y-4">
           {displayQuotes.length === 0 ? (
-            <Card className="bg-beige-100 border-beige-200">
+            <Card className="bg-white-100 border-white-200">
               <CardContent className="p-6 text-center">
-                <h3 className="font-handwritten text-lg font-bold text-warm-brown mb-2">
+                <h3 className="font-corporate text-lg font-bold text-text-dark mb-2">
                   No favorites yet!
                 </h3>
-                <p className="text-warm-gray font-rounded text-sm">
+                <p className="text-text-gray font-corporate text-sm">
                   Start adding quotes to your favorites by tapping the heart
                   icon.
                 </p>
@@ -157,13 +157,13 @@ export default function Quotes() {
                   key={`${quote.id}-${index}`}
                   className={`${
                     isToday
-                      ? "bg-gradient-to-r from-yellow-100 to-orange-100 border-yellow-200"
-                      : "bg-gradient-to-r from-mint-100 to-blush-100 border-mint-200"
+                      ? "bg-gradient-to-r from-pink-100 to-purple-100 border-pink-200"
+                      : "bg-gradient-to-r from-white-100 to-pink-100 border-white-200"
                   } relative`}
                 >
                   <CardContent className="p-6">
                     {isToday && (
-                      <div className="absolute top-2 left-2 text-xs font-rounded bg-yellow-300 text-warm-brown px-2 py-1 rounded-full">
+                      <div className="absolute top-2 left-2 text-xs font-corporate bg-pink-300 text-text-dark px-2 py-1 rounded-full">
                         Today's
                       </div>
                     )}
@@ -171,7 +171,7 @@ export default function Quotes() {
                       variant="ghost"
                       size="sm"
                       onClick={() => toggleFavorite(quote.id)}
-                      className="absolute top-4 right-4 text-warm-brown hover:bg-black/10"
+                      className="absolute top-4 right-4 text-text-dark hover:bg-black/10"
                     >
                       <Heart
                         size={18}
@@ -183,14 +183,14 @@ export default function Quotes() {
 
                     <div className="flex items-start mb-4">
                       <div className="flex-1">
-                        <blockquote className="text-warm-gray font-rounded leading-relaxed italic mb-3">
+                        <blockquote className="text-text-gray font-corporate leading-relaxed italic mb-3">
                           "{quote.quote}"
                         </blockquote>
                         <div className="flex items-center justify-between">
-                          <p className="text-sm font-rounded text-warm-gray">
+                          <p className="text-sm font-corporate text-text-gray">
                             — {quote.author}
                           </p>
-                          <span className="text-xs font-rounded bg-white/50 text-warm-gray px-2 py-1 rounded-full">
+                          <span className="text-xs font-corporate bg-white/50 text-text-gray px-2 py-1 rounded-full">
                             {quote.category}
                           </span>
                         </div>
@@ -204,30 +204,30 @@ export default function Quotes() {
         </div>
 
         {/* Stats */}
-        <Card className="mt-6 bg-beige-100 border-beige-200">
+        <Card className="mt-6 bg-white-100 border-white-200">
           <CardContent className="p-4">
             <div className="flex items-center justify-around text-center">
               <div>
-                <div className="text-lg font-handwritten font-bold text-warm-brown">
+                <div className="text-lg font-corporate font-bold text-text-dark">
                   {motivationalQuotes.length}
                 </div>
-                <div className="text-xs font-rounded text-warm-gray">
+                <div className="text-xs font-corporate text-text-gray">
                   Total Quotes
                 </div>
               </div>
               <div>
-                <div className="text-lg font-handwritten font-bold text-warm-brown">
+                <div className="text-lg font-corporate font-bold text-text-dark">
                   {favorites.length}
                 </div>
-                <div className="text-xs font-rounded text-warm-gray">
+                <div className="text-xs font-corporate text-text-gray">
                   Favorites
                 </div>
               </div>
               <div>
-                <div className="text-lg font-handwritten font-bold text-warm-brown">
+                <div className="text-lg font-corporate font-bold text-text-dark">
                   4
                 </div>
-                <div className="text-xs font-rounded text-warm-gray">
+                <div className="text-xs font-corporate text-text-gray">
                   Artists
                 </div>
               </div>
@@ -237,7 +237,7 @@ export default function Quotes() {
 
         {/* Motivational Footer */}
         <div className="text-center py-6">
-          <p className="text-warm-gray font-rounded text-sm">
+          <p className="text-text-gray font-corporate text-sm">
             "Let these words inspire your beautiful journey!"
           </p>
         </div>
