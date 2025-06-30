@@ -80,7 +80,7 @@ export default function Mood() {
             <Card className="bg-beige-100 border-beige-200">
               <CardContent className="p-6">
                 <h3 className="font-corporate text-lg font-bold text-warm-brown mb-4 text-center">
-                  Self-Care Tips 💖
+                  Self-Care Tips
                 </h3>
                 <div className="space-y-3">
                   {selectedCat.id === "happy" && (
