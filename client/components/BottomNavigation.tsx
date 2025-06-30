@@ -15,12 +15,6 @@ const navItems = [
     activeIcon: "⏰",
   },
   {
-    path: "/cat-of-the-day",
-    icon: Heart,
-    label: "Cat",
-    activeIcon: "🐱",
-  },
-  {
     path: "/mood",
     icon: Smile,
     label: "Mood",
