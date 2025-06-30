@@ -276,7 +276,7 @@ export default function Mood() {
                 </h3>
                 <p className="text-warm-gray font-corporate text-sm leading-relaxed">
                   Whatever you're feeling today is completely okay. Every
-                  emotion has its place, and you're doing great! 🌟
+                  emotion has its place, and you're doing great!
                 </p>
               </CardContent>
             </Card>
