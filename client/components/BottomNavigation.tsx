@@ -32,7 +32,7 @@ export default function BottomNavigation() {
   const location = useLocation();
 
   return (
-    <nav className="fixed bottom-0 left-0 right-0 bg-beige-50 border-t border-beige-200 px-4 py-2 safe-area-pb">
+    <nav className="fixed bottom-0 left-0 right-0 bg-white-50 border-t border-white-200 px-4 py-2 safe-area-pb">
       <div className="flex items-center justify-around max-w-md mx-auto">
         {navItems.map((item) => {
           const isActive = location.pathname === item.path;
@@ -44,8 +44,8 @@ export default function BottomNavigation() {
               to={item.path}
               className={`flex flex-col items-center py-2 px-3 rounded-xl transition-all duration-200 ${
                 isActive
-                  ? "bg-blush-100 text-warm-brown"
-                  : "text-warm-gray hover:bg-beige-100 hover:text-warm-brown"
+                  ? "bg-pink-100 text-text-dark"
+                  : "text-text-gray hover:bg-white-100 hover:text-text-dark"
               }`}
             >
               <div className="relative">
