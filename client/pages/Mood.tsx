@@ -271,7 +271,6 @@ export default function Mood() {
             {/* Encouragement */}
             <Card className="bg-gradient-to-r from-blush-100 to-mint-100 border-blush-200">
               <CardContent className="p-6 text-center">
-                <div className="text-4xl mb-3">💖</div>
                 <h3 className="font-corporate text-lg font-bold text-warm-brown mb-2">
                   All Feelings Are Valid
                 </h3>
