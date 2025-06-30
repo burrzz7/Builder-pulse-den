@@ -188,6 +188,9 @@ export default function Index() {
           <p className="text-text-gray font-corporate text-sm">
             "You're doing amazing, keep going!"
           </p>
+          <p className="text-text-gray font-corporate text-sm text-center">
+            Birthday Gift for Jasmine cause I keep forgetting it
+          </p>
         </div>
       </div>
     </div>
