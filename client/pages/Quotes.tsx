@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { Card, CardContent } from "../components/ui/card";
 import { Button } from "../components/ui/button";
-import { Heart, Shuffle, Filter } from "lucide-react";
+import { Heart, Shuffle } from "lucide-react";
 import { motivationalQuotes, getTodaysQuote } from "@shared/data";
 
 export default function Quotes() {
@@ -133,14 +133,11 @@ export default function Quotes() {
           </Button>
         </div>
 
-
-
         {/* Quotes List */}
         <div className="space-y-4">
           {displayQuotes.length === 0 ? (
             <Card className="bg-beige-100 border-beige-200">
               <CardContent className="p-6 text-center">
-                <div className="text-4xl mb-3">😸</div>
                 <h3 className="font-handwritten text-lg font-bold text-warm-brown mb-2">
                   No favorites yet!
                 </h3>
@@ -185,7 +182,6 @@ export default function Quotes() {
                     </Button>
 
                     <div className="flex items-start mb-4">
-                      <div className="text-2xl mr-3">{quote.catEmoji}</div>
                       <div className="flex-1">
                         <blockquote className="text-warm-gray font-rounded leading-relaxed italic mb-3">
                           "{quote.quote}"
@@ -210,15 +206,16 @@ export default function Quotes() {
         {/* Stats */}
         <Card className="mt-6 bg-beige-100 border-beige-200">
           <CardContent className="p-4">
-            <div className="flex items-center mb-4">
+            <div className="flex items-center justify-around text-center">
               <div>
-                <h3 className="font-rounded text-lg font-bold text-warm-brown">
-                  Today's Featured Quote
-                </h3>
-                <p className="text-sm font-rounded text-warm-gray">
-                  Your daily dose of inspiration
-                </p>
+                <div className="text-lg font-handwritten font-bold text-warm-brown">
+                  {motivationalQuotes.length}
+                </div>
+                <div className="text-xs font-rounded text-warm-gray">
+                  Total Quotes
+                </div>
               </div>
+              <div>
                 <div className="text-lg font-handwritten font-bold text-warm-brown">
                   {favorites.length}
                 </div>
