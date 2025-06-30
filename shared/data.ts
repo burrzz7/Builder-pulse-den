@@ -109,6 +109,120 @@ export const motivationalQuotes = [
     category: "confidence",
     catEmoji: "😺",
   },
+  {
+    id: 16,
+    quote: "The best way to make your dreams come true is to wake up.",
+    author: "Taylor Swift",
+    category: "motivation",
+    catEmoji: "🐱",
+  },
+  {
+    id: 17,
+    quote: "I've learned that you can't predict or plan for every moment.",
+    author: "Olivia Rodrigo",
+    category: "acceptance",
+    catEmoji: "😸",
+  },
+  {
+    id: 18,
+    quote:
+      "Sometimes the most ordinary things could be made extraordinary simply by doing them with the right people.",
+    author: "Sabrina Carpenter",
+    category: "relationships",
+    catEmoji: "😻",
+  },
+  {
+    id: 19,
+    quote:
+      "You have to stop thinking that the way other people see you is more valid than the way you see yourself.",
+    author: "Gracie Abrams",
+    category: "self-worth",
+    catEmoji: "🐾",
+  },
+  {
+    id: 20,
+    quote: "Life is a tough crowd, and you're up there alone.",
+    author: "Taylor Swift",
+    category: "resilience",
+    catEmoji: "😺",
+  },
+  {
+    id: 21,
+    quote: "I think it's important to remember that we all go through things.",
+    author: "Olivia Rodrigo",
+    category: "empathy",
+    catEmoji: "🙀",
+  },
+  {
+    id: 22,
+    quote:
+      "Don't let anyone dim your light simply because it's shining in their eyes.",
+    author: "Sabrina Carpenter",
+    category: "confidence",
+    catEmoji: "😽",
+  },
+  {
+    id: 23,
+    quote:
+      "The most beautiful people are those who have known defeat, known suffering, known struggle, known loss, and have found their way out of the depths.",
+    author: "Gracie Abrams",
+    category: "resilience",
+    catEmoji: "🐈",
+  },
+  {
+    id: 24,
+    quote:
+      "You're not required to set yourself on fire to keep other people warm.",
+    author: "Taylor Swift",
+    category: "boundaries",
+    catEmoji: "😿",
+  },
+  {
+    id: 25,
+    quote:
+      "Sometimes you have to forget what's gone, appreciate what still remains, and look forward to what's coming next.",
+    author: "Olivia Rodrigo",
+    category: "mindfulness",
+    catEmoji: "🐱‍👤",
+  },
+  {
+    id: 26,
+    quote: "Be yourself because an original is worth more than a copy.",
+    author: "Sabrina Carpenter",
+    category: "authenticity",
+    catEmoji: "🐱‍💻",
+  },
+  {
+    id: 27,
+    quote: "Your worth isn't measured by your productivity.",
+    author: "Gracie Abrams",
+    category: "self-care",
+    catEmoji: "🐱‍🏍",
+  },
+  {
+    id: 28,
+    quote:
+      "You can't go back and change the beginning, but you can start where you are and change the ending.",
+    author: "Taylor Swift",
+    category: "growth",
+    catEmoji: "😸",
+  },
+  {
+    id: 29,
+    quote:
+      "Sometimes the hardest part isn't letting go but rather learning to start over.",
+    author: "Olivia Rodrigo",
+    category: "new beginnings",
+    catEmoji: "🐱",
+  },
+  {
+    id: 30,
+    quote:
+      "You are enough just as you are. Each emotion you feel, everything in your life, everything you do or do not do... where you are and who you are right now is enough.",
+    author: "Sabrina Carpenter",
+    category: "self-acceptance",
+    catEmoji: "😺",
+  },
 ];
 
 // Cat mood characters
@@ -283,7 +397,7 @@ export const birthdayMessages = [
   },
   {
     message:
-      "Birthday wishes from all your feline friends! 🐾 May your year be filled with love, laughter, and amazing adventures! 🎊",
+      "Birthday wishes from all your feline friends! ��� May your year be filled with love, laughter, and amazing adventures! 🎊",
     emoji: "🎊",
     color: "from-yellow-200 to-pink-200",
   },
